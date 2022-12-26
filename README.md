@@ -5,5 +5,5 @@
 ##### Seabea was developed using deep learning neural networks. It is knowledgeable in several categories ranging from general expressions, traits to action words.
 
 
-![naijbot1](https://user-images.githubusercontent.com/59312765/208524437-9d1a9ddd-5365-42b1-820d-c0255f0382e2.png)
+<img width="1440" alt="seabea" src="https://user-images.githubusercontent.com/59312765/209580626-c8c95141-5425-4d49-abce-4ed018b30e3b.png">
 
