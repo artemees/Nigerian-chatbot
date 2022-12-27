@@ -61,7 +61,7 @@ tensorboard==2.9.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
 tensorflow==2.9.1
-tensorflow-estimator==2.9.1
+tensorflow-estimator==2.9.0
 termcolor==2.1.0
 tqdm==4.64.1
 typing_extensions==4.4.0
