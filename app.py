@@ -9,8 +9,6 @@ def index():
 
 @app.route("/get")
 def get_bot_response():
-        userText = request.args.get('msg')
-        return str(processor.chatbot_response(userText))
-
-#if __name__ == '__main__':
-    app.run(host='0.0.0.0',  debug=True)
+    userText = request.args.get('msg')
+    return str(processor.chatbot_response(userText))
+app.run(host="0.0.0.0",debug=True)
