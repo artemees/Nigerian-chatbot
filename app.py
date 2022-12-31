@@ -1,5 +1,9 @@
 from flask import Flask, render_template, request
 import processor
+from flask_cache import Cache
+
+cache = Cache(config={'CACHE_TYPE': 'simple'})
+
 
 app = Flask(__name__, template_folder='templates', static_url_path="")
 @app.route('/', methods=["GET", "POST"])
