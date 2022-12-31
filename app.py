@@ -3,6 +3,7 @@ import processor
 
 app = Flask(__name__, template_folder='templates', static_url_path="")
 @app.route('/', methods=["GET", "POST"])
+@cache.cached(timeout=60)
 def index():
     return render_template('index1.html', **locals())
 
