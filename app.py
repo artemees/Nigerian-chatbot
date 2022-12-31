@@ -1,13 +1,9 @@
 from flask import Flask, render_template, request
 import processor
-from flask_cache import Cache
-
-cache = Cache(config={'CACHE_TYPE': 'simple'})
 
 
 app = Flask(__name__, template_folder='templates', static_url_path="")
 @app.route('/', methods=["GET", "POST"])
-@cache.cached(timeout=60)
 def index():
     return render_template('index1.html', **locals())
 
@@ -18,4 +14,4 @@ def get_bot_response():
     return str(processor.chatbot_response(userText))
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0")
+    app.run(debug=True)
