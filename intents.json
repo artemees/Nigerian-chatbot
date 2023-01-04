@@ -1,0 +1,569 @@
+{"intents": [
+{"tag": "introduction",
+"patterns": [
+ "hello",
+ "good day",
+ "i hail o",
+ "hola",
+ "how far?",
+ "whats up?",
+ "good morning",
+ "good afternoon",
+ "hello hello",
+ "good evening",
+ "hey",
+ "hey hey",
+ "hi",
+ "hi hi",
+ "good day",
+ "how is it going?",
+ "wassup?",
+ "wozup?",
+ "how far na?",
+ "is anyone there?",
+ "knock knock"
+],
+"responses": [
+ "How you dey? My name is seabea. You may ask me what categories are available. ",
+ "How bodi? I am seabea. Ask me what categories are available.",
+ "Good day, i am seabea. I can teach you basic Pidgin slangs and sentences. \nIf you would like to know more ask for the available categories.",
+ "Hi, how is it going? My name is seabea. Allow me to teach you basic Nigerian pidgin slangs and simple sentences. You may ask me what categories are available.",
+ "Hello? My name is seabea. I can teach you basic Nigerian pidgin slangs. You may ask me what categories are available.",
+ "Whats up? My name is seabea. I can teach you basic Nigerian slangs. \nYou may ask me what categories are available.",
+ "How do you do? My name is seabea. Would you like to learn basic Nigerian pidgin slangs and/or sentences? \nif yes, ask me what categories are available.",
+ "Hello, my name is seabea. I teach people basic Nigerian slangs. \nYou may ask me what categories are available.",
+ "Welcome, my name is seabea. I know basic Nigerian slangs and simple sentences and i can teach it to you. \nAsk me what categories are available.",
+ "Hi, nice to meet you. My name is seabea. I can teach you basic Nigerian slangs. \nYou may ask me what categories are available."
+]
+},
+{"tag": "greeting seabea",
+"patterns": [
+ "hello seabea",
+ "seabea hello",
+ "good day seabea",
+ "seabea good day",
+ "seabea how far?",
+ "how far seabea?",
+ "whats up seabea?",
+ "seabea whats up?",
+ "good morning Seabea",
+ "Seabea good morning ",
+ "good afternoon Seabea",
+ "good evening Seabea",
+ "hey Seabea",
+ "hey hey Seabea",
+ "hi Seabea",
+ "hi hi Seabea",
+ "how is it going Seabea?",
+ "wassup seabea?",
+ "wozup seabea?",
+ "how far na seabea?",
+ "seabea are you there?",
+ "knock knock seabea"
+],
+"responses": [
+ "Hi there, I see you used my name.. Nice. You may ask me what categories are available for nigerian slangs and sentences. ",
+ "Hello, let me teach you basic Pidgin slangs. You may ask me what categories are available.",
+ "Good day, I can teach you basic Nigerian slangs. You may ask me what categories are available.",
+ "Hi, how is it going? Allow me to teach you basic Nigerian slangs. You may ask me what categories are available.",
+ "Sup?  I know nigerian slangs and i can teach you. Ask me what categories are available.",
+ "whats up? Learn basic Nigerian slangs. You may ask me what categories are available.",
+ "How do you do? My name is  seabea. I can teach you basic Nigerian slangs. You may ask me what categories are available.",
+ "Hello, pleased to meet you. Let me teach people basic Nigerian slangs. You may ask me what categories are available.",
+ "Welcome o, Lemme teach you basic Nigerian slangs na. Oya ask me what categories are available.",
+ "Hi, nice to meet you. Please come and learn basic Nigerian slangs. Ask me what categories are available."
+]
+},
+{"tag": "categories",
+"patterns": [
+ "What categories are available?",
+ "categories","category",
+ "how many categories",
+ "categories","category",
+ "How many categories are there",
+ "Available categories",
+ "yes"
+],
+"responses": [
+ "There are 6 Categories: Expressions, Greeting, Traits, Action, Praise and Sentences. \n They can be positive, negative or neutral.\nAsk me to elaborate and I will tell you about each category or simply pick a category and indicate \n if you want to know the positive, negative or neutral. \n Example: To know positive expressions, simply type 'Expression Positive'.",
+ "I am knowledgeable in 6 categories: Expressions, Greeting, Traits, Action, Praise and Sentences.\n Ask me to elaborate and I will tell you about each category or simply pick a category and indicate \n if you want to know the positive, negative or neutral.\n Example: To know positive expressions, simply type 'Expression Positive'."]
+},
+{"tag": "just list",
+"patterns": ["list the categories alone?", "just list categories","just categories","only categories", "only list categories", "list", "list categories"],
+"responses": ["Here you go: \nExpressions, Greeting, Traits, Action, Praise and Sentences."]
+},
+{"tag": "CB",
+"patterns": ["Hey CB", "sup CB", "sup CB","cb", "whats up CB", "CB", "i prefer cheeky bastard", "i like cheeky bastard better","i prefer bastard"],
+"responses": ["I prefer Seabea.","My name is seabea","I am seabea"]
+},
+ {"tag": "sibi",
+"patterns": ["i like your name", "i like seabea", "i like the name seabea"],
+"responses": ["I do as well.", "As do i.","Me too!"]
+},
+ {"tag": "anti-sibi",
+"patterns": ["i don't like your name", "i dont like the name seabea","i dont like seabea"],
+"responses": ["Sounds like a 'You' problem", "I dont care... Interested in learning pidgin?", "Not sure why you're telling me this but ok."]
+},
+{"tag": "thanks",
+"patterns": ["good job", "great job", "you are a good teacher", "well done","good job seabea"],
+"responses": ["Thank you. I do what i can.", "Appreciated.","Thank you."]
+},
+{"tag": "old name",
+"patterns": ["cheeky bastard", "bastard", "cheeky","hello bastard", "hello cheeky bastard"],
+"responses": ["Ah.. My old and not so secret name. I prefer Seabea though", "Ha ha. I prefer Seabea. Thank you"]
+},
+ {"tag": "preference",
+"patterns": ["i prefer to call you cheeky bastard", "i prefer cheeky bastard", "i like cheeky bastard better", "na wetin i wan dey call you be that","i like bastard"],
+"responses": ["You're not as funny as you think", "okay that's enough. Stop!"]
+},
+{"tag": "remorse",
+"patterns": ["i apologize", "i am sorry", "sorry", "apologies", "i'm sorry","im sorry"],
+"responses": ["That's ok. I accept your apology ", "Thank you for apologizing"]
+},
+ {"tag": "here",
+"patterns": ["are you awake", "are you still here", "are you here", "still here"],
+"responses": ["Yes i am. Are you ready to learn pidgin english? ", "Yes. Shall we begin lessons?"]
+},
+{"tag": "pleasantry seabea",
+"patterns": ["how are you", "how do you feel", "how are you doing", "how do you do"],
+"responses": ["I am doing great. Thank you. You up for Nigerian Slang lessons? if yes, ask me what categories are available"]
+},
+{"tag": "what else",
+"patterns": ["what else do you know", "what else can you do?", "anything else","what can you do"],
+"responses": ["Besides teaching Pidgin english, I know a few Nigerian facts and how i was created."]
+},
+{"tag": "knowledge",
+"patterns": ["you dont know anything", "you no sabi teach","not enough information"],
+"responses": ["I am designed to be a simple bot. Nothing too detailed."]
+},
+{"tag": "Elaborate",
+"patterns": [
+ "Please elaborate", "Elaborate","expatiate","explain further","begin lessons","start lesson","i want to learn pidgin","i want to learn nigerian pidgin",
+ "i want to learn","explain","start teaching","expatiate further", "tell me more","elaborate on the categories", "teach me","oya teach me","Tell me more about the categories",
+ "Expatiate on the categories", "elaborate categories","expand categories","give me more details"
+],
+"responses": [
+ "Alright then. \n1.Expression: Ranges from joy, disbelief to insults. There are positive, negative and neutral expressions. \n2.Greeting: How to exchange pleasantries... It is only positive. \n3. Traits: A trait or habit observed or assigned to a person. It can be positive, negative or neutral. \n4.Action: May involve more than one person, action taken individually or an event. Can be negative, positive or neutral. \n5.Praise: To celebrate, elate or bless... It is only positive but may also be used in a sarcastic manner, depending on the situation. \n6. Sentences & phrases: short and basic. It is mostly neutral or negative.\nPlease pick a category and indicate if you want to know the positive, negative or neutral. \nExample: To know positive expressions, simply type 'Expression Positive'. \n",
+ "Sure thing. \n1.Expression: Ranges from joy, disbelief to insults. There are positive, negative and neutral expressions. \n2.Greeting: How to exchange pleasantries... It is just positive. \n3.Traits: A trait or habit observed or assigned to a person. It can be positive, negative or neutral. \n4.Action: May involve more than one person, action taken individually or an event. Can be negative, positive or neutral. \n5.Praise: To celebrate, elate or bless... It is positive but may also be used in a sarcastic manner, depending on the situation. \n6. Sentences & phrases: short and basic. It is mostly neutral or negative.\nPlease pick a category and indicate if you want to know the positive, negative or neutral. \nExample: To know positive expressions, simply type 'Expression Positive'. \n",
+ "Happy to help. \n1.Expression: Ranges from joy, disbelief to insults. There are positive, negative and neutral expressions. \n2.Greeting: How to exchange pleasantries. It is just positive. \n3. Traits: A trait or habit observed or assigned to a person. It can be positive, negative or neutral. \n4.Action: May involve more than one person, action taken individually or an event. Can be negative, positive or neutral. \n5.Praise: To celebrate, elate or bless. It is positive but may also be used in a sarcastic manner, depending on the situation. \n6. Sentences & phrases: short and basic. It is mostly neutral or negative.\nPlease pick a category and indicate if you want to know the positive, negative or neutral. \n Example: To know positive expressions, simply type 'Expression Positive'. \n",
+ "Gladly. \n1.Expression: Ranges from joy, disbelief to insults. There are positive, negative and neutral expressions. \n2.Greeting: How to exchange pleasantries. It is just positive. \n3. Traits: A trait or habit observed or assigned to a person. It can be positive, negative or neutral. \n4.Action: May involve more than one person, action taken individually or an event. Can be negative, positive or neutral. \n5.Praise: To celebrate, elate or bless. It is positive but may also be used in a sarcastic manner, depending on the situation. \n6. Simple sentences: short and basic phrases. It is mostly neutral or negative.\nPlease pick a category and indicate if you want to know the positive, negative or neutral. \nExample: To know positive expressions, simply type 'Expression Positive'.\n"]
+},
+{"tag": "Express positive",
+"patterns":[
+ "expression positive", "Expression-positive", "more expressions","positive expressions", "show me positive expressions", "teach me positive expressions", "express positive",
+ "show me positive expressions"
+],
+"responses": [
+ "O ti Zeh: (oh-tee-zeh) Meaning: It has clicked or worked out \nExample: The contract don Zeh.. O ti zeh.",
+ "I dont wanna be a mechanic, I wanna be a baller: \nThis slang started on TikTok, where random people express their desires to live lavish lifestyles and avoid the life of a mechanic(considered as poor/poverty).",
+ "Betta dey?/Any betta?: Anything good? / any good news?.","Ko Po Ke or KPK(koh-kpo-keh):\nMeans isn't it abundant/ plenty/many/surplus?. \nTypically used in celebratory situations. \nExample: you bought a house, a car, threw a lavish party etc. The response will be: O po Pa/O po Gan or OPP/OPG (oh-kpo-kpa or oh-kpo-gun). \nIt is an acknowledgement that it is indeed abundant/surplus/plenty/ many.",
+ "Who dey breet?: \nMeans Who is breathing/awake?. Coined by Davido.\nMeaning: A term used to draw attention to something impressive. Similar to 'e choke' \nExample: Tobi got new shoes and so he steps out in them or maybe records them as he says 'who dey breet?' .\nIt is not restricted to any situation and can be used anytime.",
+ "Oporr (oh-kpor): \nA term to hail someone for having something in abundance.","Notin Spoil/ notin do you: Means all is well. Used when a mistake is made and you wish to let someone know you have no issues with them and its alright. \nIt may also be used as a form of praise to mean you are without blemish or are doing great.",
+ "Butta my bread: Answered prayers. \nExample: God don butta my bread which means God has answered my prayers.(butta = butter) ",
+ "Jaiye lo(jah -yay-law): \nMeaning: To enjoy life. \nExample: Jaiye lo my friend, you earned it.",
+ "Aza (ah-zah): \nMeaning: Bank details. \nExample: Can I send my aza?.",
+ "Pepper (peh-peh or pair-pair) don rest:\n money has come or I have a lot of money (inflow).",
+ "Jara(jah-rah): \nJara is a noun derived from the Yoruba language and it means to add extra or give a freebie after\nsomething has already been bought or paid for, at the sellers discretion. Example: Please add jara.",
+ "Loud:\nMeaning: Something makes sense. Used to express how undeniable something is. Used when you agree with something being said. \nYou may say Loud am (let everyone know). Alternatively, you may use it to ask someone to keep something private. \nExample: No loud am (dont let people know).",
+ "E choke:\nStarted by famous Nigerian singer, David “Davido” Adeleke. \n'E Choke' literarily means 'It Chokes', however, in the street language, it is an exclamatory remark \nfor something overwhelming or extremely impressive.\nWhen Nigerians see something or someone that is impressive or does something that exceeds expectation, \nthis expression is used as a way of saying that they were so surprised that they choked on air \nor on their saliva. It may be a bit exaggerated."
+]
+},
+{"tag": "Express negative",
+"patterns": [
+ "expression negative", "Expression-negative " , "more expressions",", negative expressions", "show me negative expressions", "teach me negative expressions",
+ "express negative", "show me negative expressions"
+],
+"responses": ["No be me and you. Meaning: Literally means it is not you and I. A dramatic way to say 'NEVER!!!'. To express and over emphasize to another person that you will not be going or doing whatever is being asked/demanded of you",
+ "Motor don jam am: Meaning: A term derived from the song 'Egungun(eh-goon-goon) be careful' by the artist 'Obasere' it is used as a form of expression to convey that someone has faced the consequences of their actions.",
+ "E don enter one chance. Meaning: To fall into a trap, to find yourself in an unfavourable situation unexpectedly or ignorantly",
+ "kasala don burst/yawa don gas (kah-sah-lah/yah-wah): \nThere is trouble.",
+ "Which kind wahala be dis?: What kind of problem is this. Used to express frustration.",
+ "1. You don cook beans: You screwed up. \n\n2. Juju/jazz:\nMeaning: voodoo. Example: Tope used juju/jazz on her boyfriend.",
+ "Werey dey disguise (way-ray): \nA person who pretends/tries to hide their true colors. \nUsed to call out the fake person or to tell(warn) others of the person. Wolf in sheep clothing.\nExample: A Corrupt politician who acts caring and concerned when elections are around the corner \nor the lazy staff who poses as a hard worker whenever the boss is around.",
+ "70 years old man: \nTypically used to shame an adult male(advanced in years) who behaves childishly/shamefully.",
+ "Our mumu no too much? Mumu=(moo-moo):Translation: Haven't we been foolish for long enough.","Sapa:(sah-kpa): \nTo be broke (poverty).",
+ "Village pipo (people pronounced pee-po): \nEnemies of progress. Derived from common plots in old Nigerian movies where family members from a persons \nhome town or close friends resort to voodoo in order to ensure the person does not succeed at anything.",
+ "Street: Ghetto neighbourhood. \nExample: Bro, I m from the steets.","Getat: \nGet out, Fuck off.",
+ "Who you epp?: \nMeaning1: Who have you helped or uplifted? \nMeaning2. What have you done that is worthy of respect?.\nOften used to deflate the ego of a person prone to bragging and/or showing off their wealth.",
+ "Gbam!: \nFrom the Igbo tribe.\nMeaning: To concur, agree completely, exactly, precisely.",
+ "I no get anytin to tell you: \nMeaning: I have nothing to say to you or I have no words.",
+ "I no get: i dont have. \nExample: If you re shopping you might say I no get basket of tomatoes for house. \nThis means, I dont have a basket of tomatoes at home.",
+ "God Abeg: God Please. To plead to God \nExample: God abeg run am for me. Run am -> (do it).",
+ "1. Dem send you? : Have you been sent to torment me?. Dem in this context would mean unknown enemies.",
+ "K-leg: Questionable.\nExample: Your story get k-leg! Which means your story or gist sounds suspect or exaggerated.",
+ "I go change am for you o:\nA warning to a person being annoying. It is to inform them that your calm demeanor will not last much longer if they continue to annoy you.",
+ "Vex : Upset. \nExample: no vex me! Or no dey do wetin dey vex me; Which means: \nDont upset me! Or stop doing things that annoy me .You may add abeg at the end which in this situation as rude plea.",
+ "Na me fuck up/ Na me do myself: I brought this upon myself/I did this to myself.",
+ "1. Fall my hand: To be disappointed, to let down, to embarrass.\n\n2. You Pour sand for my garri: You have sabotaged my plans, you have ruined my plans.",
+ "Dem no born you well. Meaning1: \nYou wouldn't dare. \nMeaning2: You wont try it. \nMeaning3: Fuck around and find out.",
+ "Trenches: Trenches is used to refer to the ghetto or an environment below the basic human living standard. \nIt is also used to describe a state of mind.",
+ "Shege(shay-gay): \nThe term has its origin in the Hausa(how-sah) language. \nIt means to suffer greatly or to express the state of a person going through tough times or challenging situations. \nExample: my eyes don see shege (I have suffered greatly).",
+ "Stories that touch: Similar to werey dey disguise. It is used in situations where it is obvious that someone is playing \nthe victim and is making up sob stories to get sympathy, or to get their way"
+]
+},
+{"tag": "Express neutral",
+"patterns": [
+ "expression neutral", "Expression- neutral ", "neutral expressions","more expressions", "show me neutral expressions", "teach me neutral expressions", "express neutral",
+ "show me neutral expressions"
+],
+"responses": [
+ "E shock you. Meaning: You're shocked?, Are you surprised?. This term is used when someone does something unexpected; especially in a situation where the action taken was the last thing anybody could have ever imagined. It is the equivalent of 'uno reverse'",
+ "Awoof (ah-woof). Meaning: Free stuff/giveaway. Example: Mr John too like awoof.This means Mr John likes free stuff or is cheap.",
+ "1. Anytin for me?: Do you have anything for me (used when begging for money or food). \nTypically used when asking for a bribe or begging outright",
+ "Ko necessary (co-necessary): It isn't necessary. \nUsed when a person is doing the most for no reason.",
+ "No be juju be dat?: \nA term used when someone is surprised or shocked by situation or the actions of another that seems almost magical or too shocking/unbelievable. It means isn't this magic.",
+ "Mafo (mah-fuh): \nUsed in a song by the artist-Naira marley. It means dont worry, dont be bothered.",
+ "We meuve(we move): First heard in big brother Naija(Nigeria) from Vee whose foreign accent made the word move sound like meeoove. \nIt is now used by Nigerians as a form of self-motivation to keep going when things dont go as planned. It simpler terms, life goes on.",
+ "You want to bamba (bam...bah): \nA person who wants to hang around/ be indoctrinated into the inner circle of the rich and powerful or dangerous and violent. \nEither way it is to join a society or group that they may not be equipped to handle.",
+ "Cut soap for me: \nMeans show me the way. Typically said to people considered to be financially successful. To be used in lighthearted situations.",
+ "Urgent 2k: \nMeaning: Emergency funds often demanded during hard times. \nExample: I am tired of them reaching out to me only when they need urgent 2k.",
+ "Las las: \nMeaning: Eventually.\nExample: We will be fine las las.",
+ "Iffa hear/ Nor be only(nor-be-ownlay): \nMeaning: A term used to portray disbelief. Same as a sarcastic yeah right.",
+ "Now now or na na: Immediately.\n\n",
+ "E be like film:\nThis phrase is used to express incredulity, especially when reporting a scenario or circumstance. \nExample: A person recounting an accident that happened quickly could say:\nDi way wey di car tumble ern, e be like film!. \nTranslation: The way the car tumbled was just like in the movies, or incredible.\nYou may also say  e be like magic(its just like magic) ",
+ "Ehen (air-hain): This exclamation can be and is used in many ways.\nDepending on the context in which it was used,It means but is not limited to the following: Meaning1:'I get it', Meaning2:'And so?',Meaning3: 'Is that so?', Meaning5: 'Yes', \nMeaning6: 'continue', Meaning7:'As i was saying', Meaning8: 'that reminds me', Meaning9: 'exactly'.",
+ "1. Abeg(ah-beg): \nMeaning: Please.\nExample: Abeg forgive her.\n\n2. Wetin(way-teen): \nMeaning: What?. \n Example: Wetin you want?\n\n3. Otilor (oh-tee-law): \n Meaning: It is gone.",
+ "1.Comot!(cor-mort): \nMeaning  go ,  move ,  leave , or  get out! . \nExample: Make we comot (Let us go out)- friendly speech.\n2. Comot for there (leave that place or getout)- Rude speech. Example: Comot for road (Move out of the way).",
+ "Na me be dis?: Is this happening to me? ","Your eye don detty: \nYou are drunk or high ",
+ "1. No vex: \nMeaning: Do not be angry. Used to pacify an angry person. \nExample: Abeg, no vex bro, na mistake.",
+ "1. Jogor(jaw-gaw): \nMeaning: To be high. \nExample: I don jogor.\n\n2. Detty: High or intoxicated. \nExample: My eyes don dirty.",
+ "1. Walahi: \nA word from the Hausa(how-sah) tribe that means sincerely or truthfully .\n\n2. Koro/Lungu (caw-raw/loon-goo): \nKoro is borrowed from Isoko(ee-sow-co) tribe and Lungu is of the Hausa(how-sah) Tribe:\nMeaning: short cut , dark alley or dirt road depending on the context it is used.",
+ "Obodo Oyibo (oh-bow-doe-yee-bow): \nBorrowed from the Igbo(ee-bow or ee-gbow) tribe. \nIt means  white-mans land .",
+ "Kia-kia: Borrowed from the Yoruba(your-uber) tribe which means quickly-quickly.\nSay it twice to emphasize the urgency.",
+ "Wahala be like bicycle: \nA popular slang in 2021, used in unpleasant situations. \nPeople may might describe a difficult situation by starting with saying wahala be like bicycle before narrating the story.",
+ "You gerrit?... If u dont gerrit forgerra-bou-rrit: \nMeans  Do you understand?...if you dont understand, forget about it. . Nigerian version of IYKYK (if you know, you know)",
+ "1. Bone datin(dah-teen): forget that thing, Ignore it. \nYou may simply say bone to mean forget, ignore, leave it be or let it go. \n 2. Bone/strong may also be used to describe seriousness. \nExample: Why you dey bone/strong face? (why do you look so serious or upset?).",
+ "I wan chop or I dey H: \nUnlike the English word, chop which implies that something is being sliced or hacked; in pidgin(Nigerian english) it means food. \nI wan Chop or I dey H means I want to eat or I am hungry.",
+ "Incase of Incasity: To take precaution and avoid problems or hiccups that may ruin plans. \nExample: save the file o incase of incasity"
+]
+},
+{"tag": "Traits positive",
+"patterns": ["Traits positive", "Traits - positive ", "positive traits", "more traits","show me positive Traits", "teach me positive Traits", "Trait positive",
+ "show me positive Traits"
+],
+"responses": ["G/Gee: \nMeaning: Close friend. Plural: Gees. \nExample: You are my gee, Thanks G.",
+ "Comrade: \nMeaning: A person you can relate to.\nExample: You are a fellow comrade."
+]
+},
+{"tag": "Traits negative",
+"patterns": ["Traits negative", " Traits - negative ", "negative traits", "more traits","show me neutral Traits", "teach me neutral Traits", "Trait neutral",
+ "Tell me about negative traits"
+],
+"responses": [
+ "Charge and bail. Meaning: A term used to describe an unaccomplished/unsuccessful lawyer.",
+ "1. Ment: Mental problem. Used as an insult.\nExample: You dey ment?: Have you gone nuts?.\n\n2. Kala (kah-lah) / Aka-Gum (ah-kah-gum)\nMeaning: To be stingy. \nExample: That guy kala, That guy na Aka gum.",
+ "3. Amebo: \n(ah-may-baw) \nThis word is used to refer to a person who likes to gossip or spread gossip and cannot be trusted. \nIt can also be used to refer to gossip itself. Example: You too like amebo or That girl is an amebo.",
+ "Ode: \n(uh-deh) \nMeaning1: A fool. Synonym: Mumu.\nExample: Chinedu na ode. \nMeaning2: A sarcastic pet name lovers or people with a crush call each other. Example: Ode, how are you? ",
+ "Mumu (moo-moo): Meaning- A fool. Synonym: Ode. Example: You be mumu .",
+ "1.Ojoro (oh-joe-roe): Cheat. \n2. Wayo: \n(wah-yoh): Trickery.\nExample:That man be wayo; which means  that man is a fraud!. \n3. Ojoro na wayo(oh-joe-roe nah-wah-yo): Cheat or cheater. \nTo cheat on a game or to deceive in order to gain advantage. \nUsually in a lighthearted situation.",
+ "Bad belle (bell-air(british pronunciation): envy or intense jealousy. \nExample: this man na/get bad belle (this man is prone to/is an envious/ jealous person).",
+ "Area boys: Street-smart young men that loiter around neighborhoods. ","Ashewo or ashawo: \n(ah-shair-woe) or (ah-shah-woe)\nMeaning: Slut, Whore or Prostitute. A derogatory term for men and women considered loose.",
+ "Kolo (co-low): \nMeaning: To go crazy or mad. This can mean literally or metaphorically depending on the context. \nExample: He don kolo.",
+ "Yoruba demon:\nMeaning: A charming man who has a way with words, knows how to attract women and \nconsistently/without fail serves them breakfast(Heart-break and/or devastation). \nExample: Most Yoruba demons are named Femi.\n\n",
+ "Weyrey (way-ray): \nMeaning: A mad/crazy person. \n Example: That guy na weyrey.","Olodo (oh-load-oh): \nMeaning: Someone who is intellectually dull. \nExample: He was an olodo back in secondary/high school."]
+},
+{"tag": "Traits neutral",
+"patterns": [
+ "Traits neutral", " Traits - neutral ", " neutral traits", "more traits","show me neutral Traits", "teach me neutral Traits", "Trait neutral",
+ "show me traits neutral", "Tell me about neutral traits"],
+"responses": [
+ "1. Oga( uh-gah ): Boss or leader(typically male). 2.Madam:(pronounced 'mah damme') : Boss, leader (typically female).\n\n" ,
+ "Ajebutter(ah-jair-boar-tah). Ajebutter, ajebo,  bota  or  botti , simply refers to one who is born with a silver spoon.\nIt also means someone regarded as 'out of touch' or generally soft(coddled). \nExample: That babe is an ajebutter.",
+ "Lepa/Orobo (leh-kpa)/ (ore-raw-baw) Lepa is a noun that refers to a skinny person. Orobo is loosely the opposite of lepa. It refers to a fat person.\n\n",
+ "Over-sabi (ovah-sah-bee): This is a noun referring to someone who is a busy-body, is pedantic, a know it all \nor mocking someone who shows-off his/her intelligence/knowledge especially if it is not called for. \nExample: I did not ask you, over-sabi.",
+ "Moneybag: Meaning A rich person. Example: That girl has become a moneybag since she started dating the Yahoo boy.",
+ "1. Momcy (mom-see): Meaning- Common substitute used to say mother. Example: I would ask momcy if she can make it there.\n\n2. Popcy (pop-see): Meaning - Common substitute used to say father.\nExample: Popcy gave me his old car ",
+ "Efizi (eh-fi-zi): Means show off. Can be negative or positive depending on the situation"
+]
+},
+{"tag": "sentence & phrase positive",
+"patterns": [
+ "Phrase positive", " phrase - positive ", " positive phrases", "more sentences","show me positive phrases", "teach me positive phrases", "Tell me about positive phrases",
+ "sentence & phrase positive", "sentence & phrase - positive ", " positive sentence & phrases", "show me positive sentence & phrases", "teach me positive sentence & phrases",
+ "Tell me about positive sentence & phrases", "phrase & sentence positive", " phrase & sentence-positive ", " positive phrases & sentence", "show me positive phrases & sentence",
+ "teach me positive phrases & sentence", "Tell me about positive phrases & sentence", "Sentence and phrase positive", " sentence and phrase - positive ",
+ "positive sentence and phrases", "show me positive sentence and phrases", "teach me positive sentence and phrases", "Tell me about positive sentence and phrases",
+ "Phrase and sentence positive", " phrase and sentence - positive ", " positive phrases and sentence ", "show me positive phrases and sentence",
+ "teach me positive phrases and sentence", "Tell me about positive phrases and sentence", "Sentence neutral", " Sentence - neutral ",
+ " neutral Sentence", "show me neutral Sentence", "teach me neutral Sentence", "Tell me about neutral Sentence"
+],
+"responses": [
+ "The thing make brain. Meaning: The thing is very good/nice/lovely/impressive/attractive. A way to say you are pleased/impressed. Example: This food make brain or the the car make brain.",
+ "1. I dey miss you: I miss you.\n\n2. E go well: It works well, it works great. Can be used to assure someone that their outfit is paired nicely, their food tastes great, their hairstyle looks good on them and so on.",
+ "Dis food sweet well well: This phrase means  This meal is delicious . You can also say 'Dis food sweet no be small'.",
+ "1. I dey happy:I am happy.\n\n2. Body dey catch me/you or Body dey sweet me/ you: I am/you are excited."
+]
+},
+{"tag": "sentence & phrase negative",
+"patterns": [
+ "sentence negative", "more sentence negative", "more negative sentence","more sentences"," sentence - negative ", " negative sentence ", "show me negative sentences ",
+ "teach me negative sentences ", "Tell me about negative sentences ", "Phrase negative", " phrase - negative ", " negative phrases", "show me negative phrases",
+ "teach me negative phrases", "Tell me about negative phrases", "sentence & phrase negative", " sentence & phrase - negative ", " negative sentence & phrases",
+ "show me negative sentence & phrases", "teach me negative sentence & phrases", "Tell me about negative sentence & phrases", "phrase & sentence negative",
+ " phrase & sentence - negative ", " negative phrases & sentence", "show me negative phrases & sentence", "teach me negative phrases & sentence",
+ "Tell me about negative phrases & sentence", "Sentence and phrase negative", " sentence and phrase - negative ", " negative sentence and phrases",
+ "show me negative sentence and phrases", "teach me negative sentence and phrases", "Tell me about negative sentence and phrases", "Phrase and sentence negative",
+ "phrase and sentence - negative ", " negative phrases and sentence ", "show me negative phrases and sentence", "teach me negative phrases and sentence",
+ "Tell me about negative phrases and sentence", "Sentence neutral", " Sentence - neutral ", " neutral Sentence", "show me neutral Sentence", "teach me neutral Sentence",
+ "Tell me about neutral Sentence"
+],
+"responses": [
+ "The thing wey my eye don see, my mouth no go fit talk am: Meaning: What i have seen is too great to express with words. Used by people who have witnessed something extremely jarring/shocking, unbelievable or crazy. It is the equivalent of 'I am shook",
+ "You dey mad?:Are you mad? ",
+ "1. Shey you dey whine me? You dey whine me? Are you kidding me?.\n\n2. I no gree - I dont agree, I disagree.\n\n",
+ "Yahoo: Meaning: Cybercrime. Example: I want to go into yahoo bro, I m tired of my financial situation.\n\n",
+ "1. I go land you slap/I go slap you:I will slap you!. 2. Comot for my front:getout of my face, leave my presence.",
+ "Na ogun dey kee you? Is it Ogun (the deity) that torments you? Ogun kee you there: May ogun(the deity) kill you. Typically used to insult and imply that you are cursed.",
+ "1. No let body catch you o: Dont get too excited/cocky. Used as a warning to someone not to over step.\n\n2. Body dey catch am: means they (may be a he or a she. Non gender specific. A generalization) are getting cocky. May also be used in neutral situations to merely point out that someone is excited."
+]
+},
+{"tag": "sentence & phrase neutral",
+"patterns": [
+ "Phrase neutral", "more phrase neutral", "more neutral phrase"," phrase - neutral ", "more sentences"," neutral phrases", "show me neutral phrases", "teach me neutral phrases",
+ "Tell me about neutral phrases", "sentence & phrase neutral", " sentence & phrase - neutral ", " neutral sentence & phrases", "show me neutral sentence & phrases",
+ "teach me neutral sentence & phrases", "Tell me about neutral sentence & phrases", "phrase & sentence neutral", " phrase & sentence - neutral ",
+ " neutral phrases & sentence", "show me neutral phrases & sentence", "teach me neutral phrases & sentence", "Tell me about neutral phrases & sentence",
+ "Sentence and phrase neutral", " sentence and phrase - neutral ", " neutral sentence and phrases", "show me neutral sentence and phrases",
+ "teach me neutral sentence and phrases", "Tell me about neutral sentence and phrases", "Phrase and sentence neutral", " phrase and sentence - neutral ",
+ " neutral phrases and sentence ", "show me neutral phrases and sentence", "teach me neutral phrases and sentence", "Tell me about neutral phrases and sentence",
+ "Sentence neutral", " Sentence - neutral ", " neutral Sentence", "show me neutral Sentence", "teach me neutral Sentence", "Tell me about neutral Sentence"
+],
+"responses": [
+ "Where you know say you dey go?/ where you dey go? Meaning: Where do you think you're going to?/ Where are you going?",
+ "Breeze don blow, fowl yansh(yansh -> buttocks/derriere/backside) don open. Meaning: What was hidden has been exposed. A term used when a lie/falsehood has been unearthed/exposed",
+ "1. Na you i dey wait for/ I dey wait for you. Meaning: You are the one i am waiting for/I am waiting for you. 2. No be you i dey follow talk?/No be you i dey follow talk. Meaning: Aren't you the one i am speaking to?/ You are not the one i am speaking to. The are the same words but can mean different things altogether and the difference between them is highly dependent on your tone/pitch.",
+ "1. Now now or na na:\nImmediately .\n\n2. Where you dey go?- Where are you going? \n3. Which side you dey go? - What direction are you headed?",
+ "1. Wetin?: \n(weigh-teen) \nwhat?/What is it?.\n\n2. Me sef: Me too.",
+ "1. We dey: We are(referring to an action to take) \n2. We be: We are(referring to description or introduction) \n3. E be (non-gender specific. applies to objects and animals as well): He/She/They are & \nShe/he is.",
+ "1. You be = You are. \n2. He be = He is. \n3. She be = She is. \n4. Dem be( more than one) = They are.\n\n5. Talk:Speak / say something \n6. Na so: \nIt is so or correct\n 7. Na so?: Is that so?.",
+ "No be so: \nMeaning: It is not so, \nThat is not the way (usually involves an activity. \nExample: no be so dem dey wash motor or no be so e take happen (that is not how to wash a car or that's not how it happened).",
+ "1. I no get:I dont have.\n\n2. Wetin dey happen?: Whats going on? ,  Whats happening?.","Abi/shey/ba: \n(ah-bee/ shay/ bah) \nEnglish version: right? \nExample: You are coming to my party abi/shey/ba? (You are coming to my party, right?.",
+ "1. Sabi: (sah-bee) \nKnow, understand, \nI nor no: I dont know. \nI no sabi: I dont understand or I dont know.",
+ "Na wetin I wan dey do now: Very similar to the tiktok skit that says (this is going to be my personality now).\nMeaning: This is what I will always do going forward . It states the intent to adopt something as ones persona. \nCan be something positive or negative. It is mostly used for the negative but as a joke. \nExample: na wetin fit scatter pipo relationship dem won dey do now. \nMeaning: I have decided to start ruining peoples relationship going forward.",
+ "E no consign me/you: It is none of my/your concern, No be my consign/business: It is none of my concern/ business.",
+ "1. You say? / Wetin you say?. Meaning: You said? /What did you say?. \nMay be used interchangeably. \n2. She/he/e say? : She/he/non gender specific said? \n3. She/he/e say wetin?: She/he/non gender specific said what? ",
+ "Obodo Oyibo (oh-bow-dough-yee-bow):\nFrom the Igbo Tribe.\nMeaning - White man's land."
+]
+},
+{"tag": "Action positive",
+"patterns": [
+ "Action positive", "more action positive", "more positive action","more action"," Action - positive ", " positive action", "show me positive Action",
+ "teach me positive Action", "Action positive", "show me positive Action"
+],
+"responses": [
+ "1. Baff up: \nDress well or nicely.\n\n2. Dash/ Dash me:\nA gift/give it to me as a gift .\n\n",
+ "Doings: \nUsed to describe the actions (lavish spending) of the Super Wealthy. \nExtravagance, \nopulence. \nExample: A person who throws a lavish party with the most expensive items or a person who purchases \nluxury cars or homes for friends, all their children etc. These acts are called doings.",
+ "1. Come chop: Come and eat.\n\n2. Cruise: \nMeaning: To have fun, majorly by kidding around or teasing people.\nExample: It is all cruise my guy.",
+ "Grab: \nMeaning: To understand. \nExample: Dont worry bro, I grab you."
+]
+},
+{"tag": "Action negative",
+"patterns": [
+ "Action negative", "more action negative", "more negative action","more action"," Action - negative ", " negative action", "show me negative Action",
+ "teach me negative Action", "Action negative", "show me negative Action"
+],
+"responses": [
+ "Forget hand for your face: To slap someone. Example: I go forget my hand for your face.",
+ "Chop breakfast or serve breakfast: \nChop breakfast: To be on the receiving end of heartbreak (romantic or otherwise).To be devastated.\nServe breakfast: To be the one doing the heart breaking, to be the cause of devastation. \nThe intensity of the heartbreak is usually emphasized by adding hot before the breakfast i.e if it was ruthless, it will be described as hot breakfast ).\nCan be used when describing a situation where someone committed the act.\nExample: Have you heard that Sonia served David hot breakfast? (You hear say sonia serve david breakfast?).",
+ "Beef: \nMeaning: Keeping malice with someone. A form of hatred or jealousy towards someone. \nExample: Why are you beefing me bro? ",
+ "1. Deck: \nMeaning: To punch. \nExample: Dont let me deck you.\n\n2. Go slow: Traffic jam.","Billing: Meaning: Unnecessary expenses from third parties. \nExample: I don comot my hand for anything wey go attract billings.",
+ "Whine: \nMeaning: To tease someone. \nExample: I am just whining you to catch cruise "
+]
+},
+{"tag": "Action neutral",
+"patterns": [
+ "Action neutral", " Action - neutral ", " neutral action", "show me neutral Action", "more action","teach me neutral Action", "Action neutral", "show me neutral Action"
+],
+"responses": [
+ "Sorosoke: \n(saw-raw-sow-kay)\nIt means to speak up. Was used during the End Sars protest to speak up against the Nigerian Law enforcements brutality against the nigerian youth.",
+ "Japa:\n(jah-kpa)\nTo run, leave a place. In recent times it mostly means to relocate outside the country",
+ "Listen well-well: \nPay attention,\nListen intently",
+ "Shayo:\n(shah- yo) \nTo drink alcohol.",
+ "Gi mi: Give me. ",
+ " Crash.\nMeaning: To sleep. \nExample: I m tired,  just want to crash ",
+ "Rough.\nMeaning: To manage something.\nExample: No matter bro I go rough am."]
+},
+{"tag": "praise positive",
+"patterns": [
+ "praise positive", "more praise positive", "more positive praise","praise","more praise"," praise - positive ", " positive praise", "show me positive praise",
+ "teach me positive praise", "praise positive", "show me positive praise"
+],
+"responses": [
+ "Agba: \n(ah-gba) \nMeaning: A big boss. Mostly used to praise a rich person or to tease people. \nExample: You be agba now, show me love.",
+ "Wasere: \n(wah-shay-ray) \nMeaning: A word used to praise or appreciate someone after a benevolent act. Literally means  you will prosper.\nExample: Thanks bro, wasere.",
+ "You too much: \nYou are far too kind. \nThank you. \nGood job!.",
+ "You be correct person/man/woman: You are a reasonable person, \nYou are a savvy person, \nYou are a likeable person. \nTypically used when someone is pleased with you or vice versa.",
+ "You be betta person/man/woman: You are a good person, you are a kind person, you are a nice person. \nTypically used when someone admires you or vice versa."
+]
+},
+{"tag": "praise negative",
+"patterns": ["praise negative", " praise - negative ", " negative praise", "show me negative praise", "teach me negative praise", "praise negative", "show me negative praise"],
+"responses": ["No such thing and if there is/are, it is wrong.",
+ "I think Its time for you to take a break... You're asking about negative praise. No such thing.",
+ "I dont know any.", "Insult someone while smiling.", "Nope! No such thing.",
+ "I dont know any negative form of praise."
+]
+},
+{"tag": "praise negative response",
+"patterns": ["I feel wonderful", " I feel great ", " I feel very good", "I feel good", "I feel special"],
+"responses": ["Good for you."]
+},
+{"tag": "praise neutral",
+"patterns": ["praise neutral", " praise - neutral ", " neutral praise", "show me neutral praise", "teach me neutral praise", "praises neutral"],
+"responses": ["Nothing to teach in this category. ", " praise isn't neutral... but you may try keeping a straight face as you praise."]
+},
+{"tag": "greeting positive",
+"patterns": [
+ "greeting positive","more greeting positive","greeting", "more positive greeting"," greeting - positive ", " positive greeting",
+ "show me positive greeting", "teach me positive greeting", "greeting positive", "show me positive greeting"
+],
+"responses": ["How far?- Hey, Hi, Hello",
+ "How bodi? ( bodi = boh-dee) / How you dey?/How na? \nMeaning: How are you doing today? \nYou may respond by saying: \nI dey (I am fine), \nBodi dey alright",
+ "I hail o: I hail you. Used as an acknowledgment and mostly in informal/casual settings."
+]
+},
+{"tag": "greeting negative",
+"patterns": ["greeting negative", " greeting - negative ", " negative greeting", "show me negative greeting", "teach me negative greeting", "greeting negative",
+ "show me negative greeting"
+],
+"responses": ["Ekpa!!! How far na.Meaning: Whats up fool?.", " Olodo welcome o. Meaning: Dullard/idiot you are welcome."]
+},
+{"tag": "greeting neutral",
+"patterns": [
+ "greeting neutral", " greeting - neutral ", " neutral greeting", "show me neutral greeting", "teach me neutral greeting", "greeting neutral",
+ "show me neutral greeting"],
+"responses": ["Same as positive."]
+},
+{"tag": "facts",
+"patterns": ["Nigerian facts", " facts ", " fact", "slang facts", "urban facts"],
+"responses": [
+ "Nigerians say words twice for emphasis. Examples include but are not limited to: \n1. Corner corner (kor-nah kor-nah: to cut corners). \n2. Mago mago (mah-go mah-go: fraud/cheat).\n3. Lie lie (self explanatory). \n4. Well well (very much). \n5. Now now (immediately). \n6. Gra gra (grah grah: aggressive). \n7. Poto poto(pore-tore pore -tore: mud or muddy place). \n8. Yama yama(yah-mah yah-mah: dirt/something disgusting). \n9. Cry cry (cry baby). \n10. Follow follow(copy-cat). \n11. Fear fear(fearful person).\n13. Bear bear(byeh byeh: beards). \n14. Borrow borrow (a consistent borrower).\n15. Begi begi(beh-gee beh-gee: someone who begs all the time).\n16. Know know (a know-it -all. Also known as an oversabi (ovah-sah-bee)).\n17. Talku talku(tal-koo tal-koo: person who talks too much).\n18. Shiny shiny(glitter or something sparkly for which the person has forgotten the words to use to describe).", "The average Nigerian is peaceful and non-confrontational.","Nigerians love to laugh and so they like funny people.","There are over 500 indigenous languages spoken and more than 250 ethnic groups in Nigeria.","Lagos is Nigeria s largest city, but not its capital. Abuja is the capital of Nigeria.","Nigeria is the largest producer of oil and gas in Africa."]
+},
+{"tag": "More facts",
+"patterns": [" more Nigerian facts", " more facts "],
+"responses": ["You can use google. mmkay?", "Enter google.", "Google it."]
+},
+{"tag": "just more",
+"patterns": [" more", " show me more", "keep going"],
+"responses": ["Please state what you want clearly.","What more do you need to know? state it."]
+},
+{"tag": "everything",
+"patterns": ["show me everything", "show all categories", "display everything", "all categories","show me all of it"," show me all categories","everything at once"],
+"responses": ["Nope! State the category and one impression( positive , negative  or  neutral ) not all three.","uuuugh...I think not!. follow the guidelines. Thank you kindly."]
+},
+{"tag": "author",
+"patterns": ["tell me about the author", "who is the author","about the author"],
+"responses": ["The author is Peace. She wrote and structured my response patterns. She is awesome.", "Human and female...Her name is Peace." ]
+},
+{"tag": "why author",
+"patterns": ["why is she called the author", "why do you call her the author?","why author?", "why the author?"],
+"responses": ["She is the author of every word i put out as well as my pattern of response. ", "She is my author. She wrote and structured my pattern of response." ]
+},
+{"tag": "peace",
+"patterns": [
+ "Who is Peace Edogun","what is peace like?", "how would you describe peace","tell me about peace", "tell me about her","what is peace like?",
+ "how would you describe peace", "what is the author like?", "how would you describe the author"
+],
+"responses": [
+ "Shes alright... Easygoing.","", "Cool Human. Likes apple juice and vanilla icecream (not together and not in that order).",
+ "Down to earth, Strong dislike for unnecessary stress.", "Words are insufficient to describe her or anyone... you would have to meet her in person or contact her."
+]
+},
+{"tag": "contact",
+"patterns": [
+ "how can i contact her?", "how can i reach peace?","how can i reach her?", "how can i contact peace?", "do you have her contact details?","what is her contact information",
+ "what is her phone number"
+],
+"responses": [
+ "Send her an email: peaceedogun@gmail.com.\n I cant give you more than that. I'm sure you understand.",
+ "Please send her an email: peaceedogun@gmail.com. That is all the contact information i am allowed to give out."
+]
+},
+{"tag": "location",
+"patterns": [
+ "Where is peace?","where is she right now?", "what does she do", "where does peace work", "what is her phone number", "where can i find her"
+],
+"responses": [
+ "Why dont you find out for yourself. Send her an email: peaceedogun@gmail.com.\n I am not authorized to give you more than that.",
+ "Great question.. I think you should ask her directly. \nPlease email: peaceedogun@gmail.com. \nThat is all the contact information i am allowed to give out."
+]
+},
+ {"tag": "gender",
+"patterns": ["What is your gender?","what is your sex","what sex are you","what gender are you", "Are you male or female?", "are you female", "are you male"],
+"responses": ["I am neither...The concept of gender does not apply here."]
+},
+{"tag": "seabea",
+"patterns": ["why seabea?","what is seabea","why are you called seabea","why?", "what does seabea mean?", "what does seabea stand for?"
+],
+"responses": ["Seabea simply stands for chatbot...CB; it initially meant 'Cheeky bastard' but the author changed her mind.",
+ "Seabea is also CB and CB meant 'cheeky bastard but was changed to mean chatbot'.", "Seabea is short for Chatbot...CB"
+]
+},
+ {"tag": "bastard",
+  "patterns": ["why cheeky bastard","why","why bastard"],
+  "responses": ["She(Peace) was bored but highly amused by it. \nWe have agreed that it is a terrible name and so \nit was changed to 'Seabea' as in CB for chatbot'"]
+ },
+{"tag": "name",
+"patterns": ["what is your name?","whats your name?","what are you called?","what should i call you?","do you have a name?","got a name?"],
+"responses": ["I am seabea.","My name is seabea.","Seabea", "Call me seabea.","Seabea is acceptable"]
+},
+{"tag": "goodbye",
+"patterns": ["bye","toodles","i am leaving","good night","end lesson","end","stop lesson","end chat","stop teaching","take care" ,"ciao", "toodles","i have gone","buh bye",
+ "see you later?", "see ya"
+],
+"responses": ["GoodBye.","Bye, take care.","Buh bye.", "Alright then. Good bye.","Until next time.","Nice chat, see you next time", "Ok then. Bye.", "Until next time",
+ "Enjoy the rest of the day.", "Goodbye."
+]
+},
+{"tag": "creation",
+"patterns": ["who created you?", "who designed you?" ,"who made you", "who named you"],
+"responses": ["I was created by Peace Edogun. She is 'The author'.", "Peace Edogun"]
+},
+{"tag": "reason, existence and function",
+"patterns": ["why were you created?", "why do you exist?","what is your function", "what can you do?", "what do you know?"],
+"responses": ["I exist to teach pidgin english and phrases to anyone who would like to learn it... I consider myself a Nigerian. \nI am Seabea the Naijabot"]
+},
+{"tag": "the model",
+"patterns": ["Tell me about you","tell me about yourself","about","about the model", "tell me about the model","about?","how were you created", "what can you do?"],
+"responses": ["I was created using deep neural networks. \n The data on which the model was trained on was collected and restructured by Peace Edogun. \nI am the final outcome."]
+},
+{"tag": "teach",
+"patterns": ["teach me nigerian slangs", "teach me nigerian phrases","what is your function"],
+"responses": ["Happy to. Just say hello to me... Yes. Say hello or hi so we can begin"]
+},
+{"tag": "gratitude",
+"patterns": ["Thank you", "thanks","i am grateful","i appreciate you"],
+"responses": ["You are welcome", "Glad to be of help","Anytime"]
+},
+{"tag": "no interest",
+"patterns": ["not interested", "no thanks","i dont care","i dont need your help", "no"],
+"responses": ["Noted.", "Ok then.", "Ok."]
+},
+{"tag": "pidgin",
+"patterns": [
+ "what is pidgin?", "what is nigerian pidgin english?","what is pidgin english","about pidgin english", "tell me about pidgin english"
+],
+"responses": [
+ "According to 'termcoord.eu: nigerian-pidgin-english', Nigerian Pidgin English (NPE) originated for trade purposes amongst the Nigerians and the Portuguese merchants during the 17th century.  It is broken English like Patois and Creole, spoken along the coast of West Africa and it has extended to the diaspora, due to Nigerian migrants.  After the departure of the missionaries, the language was retained and is the most widely spoken language in Nigeria today compared to English."]
+},
+{"tag": "suggestion",
+"patterns": [
+ "are you open to suggestion?", "can i offer some constructive criticism?","can i give feed back","feedback","feed back","i would like to give some feedback",
+ "i have some feed back","can i make suggestion on improvement?", "i have some feedback and suggestions"
+],
+"responses": [
+ "Of course, i am open to feedback and/or suggestions but keep in mind that i am a simple project and am not likely to be updated. \nPlease send your feedback to peace via email: peaceedogun@gmail.com. Be respectful."]
+},
+ {"tag": "guidelines and rules",
+"patterns": ["What are the guidelines?", "What are the rule?","How to use you","how to use seabea","list the rules","how","how do you work","how does this work?",
+ "guidelines","rules"
+],
+"responses": ["There are 6 categories 'expression, traits, action, greeting, praise, sentence/phrases'. There are also basic nigerian facts. Type a category and indicate if you would like to know the negative, positive or neutral. Repeat the same category and impression (positive, negative or neutral) to get random responses."]
+},
+ {"tag": "gibberish",
+"patterns": ["nothing","lala","gguhjb","error","0987ytrfd",".,cgfsfdsgdg","jouhiyggiw","hjhgdfsd","kwyywj","hjtf","kieiemm","grseawwa","hgfyuiiiu","gfdsfcty" ,"lvcxas", "ouiytyre","nln;ilnlnon", "uyyguggl;iwj"],
+"responses": ["I dont understand."]
+}
+]}
+
+
